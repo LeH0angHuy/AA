@@ -1,17 +1,14 @@
-getgenv().FocusWave = 5 -- Priority limit wave
+getgenv().FocusWave = 10 -- Priority limit wave
 getgenv().PriorityCards = { -- Priority tags when wave = FocusWave
     "+ Range I",
     "- Cooldown I",
     "+ Attack I",
-    "+ Gain 2 Random Effects Tier 1",
     "- Cooldown II",
     "+ Range II",
     "+ Attack II",
-    "+ Gain 2 Random Effects Tier 2",
     "- Cooldown III",
     "+ Range III",
     "+ Attack III",
-    "+ Gain 2 Random Effects Tier 3"
 }
 getgenv().Cards = { -- All cards after FocusWave wave ends
     "+ Yen I",
@@ -31,15 +28,15 @@ getgenv().Cards = { -- All cards after FocusWave wave ends
     "+ Boss Damage I",
     "+ Boss Damage II",
     "+ Boss Damage III",
-    "+ Cooldown I",
+    "- Cooldown I",
     "+ Attack I",
     "+ Range I",
-    "+ Cooldown II",
+    "+ Enemy Regen I",
+    "- Cooldown II",
     "+ Attack II",
     "+ Range II",
-    "+ Enemy Regen I",
     "+ Enemy Regen II",
-    "+ Cooldown III",
+    "- Cooldown III",
     "+ Range III",
     "+ Attack III",
     "+ Enemy Regen III",
