@@ -40,6 +40,8 @@ getgenv().Cards = { -- All cards after FocusWave wave ends
     "+ Range III",
     "+ Attack III",
     "+ Enemy Regen III",
+    "+ Double Range",
+    "+ Double Attack",
     "+ New Path"
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bocchi-World/Bocchi-Main/refs/heads/main/pickcard.lua"))()
